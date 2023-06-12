@@ -7,10 +7,10 @@ import java.util.Set;
  * An implementation of IntSet using the Collections Framework's
  * HashSet.
  */
-public final class IntSet1 implements IntSet {
+public final class IntSetImpl implements IntSet {
     private final Set<Integer> set;
 
-    public IntSet1(Set<Integer> set) {
+    public IntSetImpl(Set<Integer> set) {
         this.set = new HashSet<>(set); // Copy the set (only works with primitive types)
     }
 

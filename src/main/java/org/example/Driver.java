@@ -6,10 +6,10 @@ import java.util.Set;
 public class Driver {
     public static void main(String[] args) {
 
-        //Create a new IntSet1 object
-        IntSet1 intSet1 = new IntSet1(new HashSet<>(Set.of(1, 2, 3, 4, 5, 6, 7, 8, 9)));
+        //Create a new IntSetImpl object
+        IntSetImpl intSet1 = new IntSetImpl(new HashSet<>(Set.of(1, 2, 3, 4, 5, 6, 7, 8, 9)));
 
-        //Get the set from the IntSet1 object
+        //Get the set from the IntSetImpl object
         Set<Integer> strangeSet = intSet1.getSet();
 
         //Add 420 to the set
